@@ -8,4 +8,4 @@ include:
   - 'Introduction to Python.md'
  
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-midnight
