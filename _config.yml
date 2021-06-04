@@ -4,5 +4,6 @@ relative_links:
   enabled: true
   collections: true
 include:
-  'README.md'
+  - 'README.md'
+  - 'Introduction to Python.md'
  
