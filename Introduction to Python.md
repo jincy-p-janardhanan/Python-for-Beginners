@@ -119,9 +119,9 @@ print('pi = {:.2f}'.format(pi))
 
 - Exponent:`a = b ** c`
 
-  ​					Returns  $\b^c$
-
-
+  ​					Returns  b<sup>c</sup>
+  
+  
 
 ---
 
@@ -143,11 +143,9 @@ print('pi = {:.2f}'.format(pi))
 
 > **Problem 3:**
 >
-> A program that takes the number of `wins`, `draws` and `losses` and calculates the number of points a football team has obtained so far.
+> You are an antique artefact dealer. For every hundred years of age of the artefact, the artefact gains ₹1000 in its value. The price also depends on the volume of the artefact, for every 10 cm<sup>3</sup> of the artefact, its value increases by ₹50. You have to determine the price of a lot of artefacts each day, so  you write a script to make it faster!
 >
-> - `wins` get `3` points
-> - `draws` get `1` point
-> - `losses` get `0` points
+> *Hint: Volume = length* * *breadth* * *height*
 
 
 
@@ -391,4 +389,38 @@ import string
 alphabets_index = {alphabet : index+1 for index, alphabet in enumerate(string.ascii_lowercase)}
 # creates a dictionary of alphabets mapped to their index positions, like 'a':1, 'b':2, etc
 ```
+
+
+
+---
+
+#### Practice Problems
+
+
+
+> **Problem 1:**
+>
+> Print Fibonacci series up to a given number.
+
+
+
+> **Problem 2:**
+>
+> Print multiplication table of a given number.
+
+
+
+> **Problem 3:**
+>
+> Consider yourself as a sales staff of a clothing store. You're given the task to display the price range of each variety of clothing. You have to do this frequently, so you write a program to automate this using python.
+>
+> *Hint: You can use lists or tuples to store clothing types and their prices, or you can simply use a dictionary to store clothing type and their price range as key-value pairs. Price range is a list (or use tuple) - it has two values - a minimum price and maximum price.* 
+
+
+
+> **Problem 4:**
+>
+> Congrats, your manager was so happy that you automated the task of displaying clothing price ranges and you got promoted to the customer billing section. However, you find it boring to sum up all the bills each day to generate total sales. Here again, you find your ally in python and writes a script to automate the process.
+>
+> *Hint: You can use a list (or tuple) to store bills and a loop to find sum.*
 
