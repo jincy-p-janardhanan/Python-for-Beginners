@@ -1,4 +1,4 @@
-# python_beginners
+# Python-for-Beginners
 This repo gives a simple, quick and short guide to python, for ultimate beginners.
 For a head start, go to this page.
 
