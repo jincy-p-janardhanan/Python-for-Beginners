@@ -7,6 +7,4 @@ include:
   - 'README.md'
   - 'Introduction to Python.md'
  
-
-# theme: jekyll-theme-midnight
-remote_theme:  karloespiritu/BlackDoc 
+theme: jekyll-theme-chirpy
