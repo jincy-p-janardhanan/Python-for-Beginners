@@ -333,7 +333,9 @@ while a <= 5:
     print(a)
     a += 1
 else:
-    print('Oh great! I just learnt the numbers 1 to 5. Hope I can pass my pre-school. :) ')
+    print('''
+    Oh great! I just learnt the numbers 1 to 5. 
+    Hope I can pass my pre-school. :)''')
 # prints numbers 1 to 5 and also the message in else
 ```
 
@@ -371,13 +373,17 @@ Example 3:
 alphabets = { 1:'a', 2:'b', 3:'c', 4:'d'}
 
 for key, value in alphabets.items():
-    print('Key is %d, value is %s' %(key, value))	# prints both keys and values
-    											# i.e 1 and a, 2 and b, 3 and c, 4 and d
+    # prints both keys and values
+    # i.e 1 and a, 2 and b, 3 and c, 4 and d
+    print('Key is %d, value is %s' %(key, value))
+
 for key in alphabets.keys():
-    print(key)									# prints only keys, i.e 1 to 4
+    # prints only keys, i.e 1 to 4
+    print(key)
 
 for value in alphabets.values():
-    print(value)								# prints only values, i.e a to d
+    # prints only values, i.e a to d
+    print(value)
 ```
 
 
@@ -395,8 +401,12 @@ Example 2:
 
 ```python
 import string
-alphabets_index = {alphabet : index+1 for index, alphabet in enumerate(string.ascii_lowercase)}
-# creates a dictionary of alphabets mapped to their index positions, like 'a':1, 'b':2, etc
+alphabets_index = {
+        alphabet : index+1 
+        for index, alphabet in enumerate(string.ascii_lowercase)
+        }
+# creates a dictionary of alphabets mapped to their index positions, 
+# i.e. 'a':1, 'b':2, ... , 'z':26
 ```
 
 
