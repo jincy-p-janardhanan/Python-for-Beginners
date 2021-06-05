@@ -1,12 +1,3 @@
----
-title: 'Introduction to Python'
-output:
-  html_document:
-    toc: true
-    toc_depth: 5
-    toc_float: true
----
-
 # Introduction to Python
 
 - Data Types
