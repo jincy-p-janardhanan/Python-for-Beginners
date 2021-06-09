@@ -242,17 +242,17 @@ else:
 
 
 
-#### if..else if.. ladder
+#### if..elif.. ladder
 
 Syntax:
 
 ```python
 if condition_1:
     # do something
-else if condition_2:
+elif condition_2:
     # do something
 ...
-else if condition_n:
+elif condition_n:
     # do something
 else:
     # do something, when all the condtions fail
@@ -264,15 +264,15 @@ Example:
 grade = 95
 if grade < 40:
     print('Fail')
-else if grade < 50:
+elif grade < 50:
     print('D')
-else if grade < 60:
+elif grade < 60:
     print('C')
-else if grade < 70:
+elif grade < 70:
     print('B')
-else if grade < 80:
+elif grade < 80:
     print('A')
-else if grade < 90:
+elif grade < 90:
     print('S')
 else:
     print('O')
